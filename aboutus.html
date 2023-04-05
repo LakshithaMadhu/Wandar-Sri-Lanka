@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #title{
+            font-family: 'gotcha-standup';
+            font-size: 40px;  
+        }
+    </style>
+    
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                
+                <a href="index.html" id="title">Wandar Lanka</a>
+    
+                <img src="logo.png" width="55px" height="55px" id="logo" >
+    
+            </div>
+    
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+    
+            <a href="feedbacks.html" class="action_btn">Feedbacks</a>
+    
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    
+            
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="feedbacks.html" class="action_btn">Feedbacks</a></li>
+    
+        </div>
+    </header>
+
+    <h1>About Us</h1>
+
+    <div class="content">
+
+       
+
+        <p>
+            Welcome to our website, where we aim to provide you with the best information about travelling places in Sri Lanka. 
+            Our mission is to make your travel experience in Sri Lanka unforgettable by guiding you through the must-visit 
+            destinations, hidden gems, and local secrets of this beautiful island.<br><br> We understand the importance of travel in 
+            creating unforgettable memories, and that's why we are committed to giving you the best recommendations and insider 
+            tips to make your journey through Sri Lanka truly remarkable. Our team of passionate travellers and locals have 
+            explored every corner of Sri Lanka, and we are excited to share our experiences and insights with you. 
+            <br> <br> hope you find our website useful in planning your Sri Lankan adventure and creating lifelong memories.
+            
+
+        </p>
+        <img src="Lotus Tower.jpg" alt="Elephants" class="img">
+
+    </div>
+
+    
+
+
+
+    <section class="footer">
+        
+        <p>Sri Lanka Best Traveling Places For You</p>
+        <p>Copyright © 2023 Lakshitha Madhuwantha</p>
+
+        
+    <div class="fbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+
+        </ul>
+    </div>
+    </section>
+    
+    <script>
+    
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropdownMenu = document.querySelector('.dropdown_menu')
+    
+        toggleBtn.onclick = function (){
+            dropdownMenu.classList.toggle('open')
+            const isOpen = dropdownMenu.classList.contains('open')
+    
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+    
+    
+        }
+        
+    
+    
+</body>
+</html>
