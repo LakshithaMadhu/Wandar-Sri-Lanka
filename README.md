@@ -10,7 +10,7 @@ This is a Mini Project what I Created for My University Project
 
 - 👯 I’m looking to collaborate on **front-end and back-end projects**
 
-- 📫 How to reach me: **lakshithamadhu801@gmail.com**
+- 📫 How to reach me: **lakshithamadhuwantha08@gmail.com**
 
 - ⚡ What I like to do: **I like so much reading, cricket and ...and coding of course**
 
@@ -20,7 +20,7 @@ This is a Mini Project what I Created for My University Project
 [![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshitha-madhuwantha-550112220/)
 [![image](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lakshitha_madhu/)
 [![image](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ramanku9)
-[![image](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lakshithamadhu801@gmail.com)
+[![image](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lakshithamadhuwantha08@gmail.com)
 
 </div>
 
